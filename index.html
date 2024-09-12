@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SeedBot_Carte</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>SeedBot Plan</h2>
+        </a>
+        
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div id="welcome-screen" class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative" >
+            
+            <div class="owl-carousel-item position-relative" style="height: 100vh;">
+                <img class="img-fluid" src="img/seedbot1.png" alt="">
+            </div>
+            <div class="owl-carousel-item position-relative" style="height: 100vh;">
+                <img class="img-fluid" src="img/seed22.jpeg" alt="">
+            </div>
+            <div class="owl-carousel-item position-relative" style="height: 100vh;">
+                <img class="img-fluid" src="img/logoSeed.jpg" alt="">
+            </div>
+            <!-- Ajoutez d'autres images ici -->
+        </div>
+        <div class="banner-text position-absolute top-50 start-50 translate-middle text-left">
+            <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Naviguer sur la carte SeedBot</h5>
+            <h1 class="display-3 text-white animated slideInDown">Voulez-vous automatiser votre robot SeedBot</h1>
+            <p class="fs-5 text-white mb-4 pb-2">Et bein, voiçi SeedBot Plan. La carte vous permet de rechercher et naviguer dans votre terrain ou champ enfin de planifier le deplacement de votre robot toute en suivant le chemin que vous lui tracez.</p>
+            <a href="contact.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En savoir plus</a>
+            <a href="javascript:void(0);" class="btn btn-primary py-md-3 px-md-5 me-3 slideInLeft" onclick="startNavigation()">Commencer à naviguer</a>
+        </div>
+
+    
+
+
+    
+
+    <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">SEEDBOT</h6>
+                    <h1 class="mb-5">Equipe SeedBot</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item bg-light">
+                            <div class="overflow-hidden" style="height: 25vh;">
+                                <img class="img-fluid" src="img/Don-Béni.jpg" alt="">
+                            </div>
+                            <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Don-Beni</h5>
+                                <small>Porteur de Projet</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item bg-light">
+                            <div class="overflow-hidden" style="height: 25vh;">
+                                <img class="img-fluid" src="img/barnabe.jpg" alt="">
+                            </div>
+                            <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Barnabé LUABEYA</h5>
+                                <small>BigData Machine Learnig/AI</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="map-container" style="display: none;">
+        <div id="controls">
+            <input id="search-input" type="text" placeholder="Rechercher un lieu" class="input-field">
+            <button onclick="searchLocation()" class="styled-button">Rechercher/button>
+            <button onclick="exportToKML()" class="styled-button">Exporter le fichier</button>
+            <button onclick="measureDistance()" class="styled-button">Mesurer la distance</button>
+            <button onclick="deleteShape()" class="styled-button">Supprimer la forme</button>
+        </div>
+        <div id="map"></div>
+    
+        <!-- Formulaire de téléchargement -->
+        <div id="upload">
+            <h2>Télécharger un fichier KML</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" id="fileInput" name="file" accept=".kml" class="input-field" />
+                <button type="button" onclick="uploadFile()" class="styled-button">Envoyer au serveur</button>
+            </form>
+        </div>
+    </div>      
+                
+                
+
+   
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOU2b32Vf9_xNlMBv1JjJOvsqWjrCT680&libraries=drawing,places"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
